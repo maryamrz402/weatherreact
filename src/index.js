@@ -8,7 +8,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='container'>
-    <App /></div>
+    <App />
+    <footer>
+        This is open-source in <a href="https://github.com/maryamrz402/weatherreact">github</a></footer>
+    </div>
   </React.StrictMode>
 );
 
